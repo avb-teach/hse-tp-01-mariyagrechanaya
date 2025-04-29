@@ -10,6 +10,7 @@ if [[ "$#" -lt 2 ]]; then
     error_exit "Usage: $0 [--max_depth N] /path/to/input_dir /path/to/output_dir"
 fi
 
+
 if [[ "$1" == "--max_depth" ]]; then
     MAX_DEPTH="$2"
     INPUT_DIR="$3"
